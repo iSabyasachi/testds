@@ -1,9 +1,16 @@
 Array
 
 - Two Sum - https://leetcode.com/problems/two-sum/
+    HashTable : TC : O(N) :: SC : O(N)
 - Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    Peak & Valley : TC : O(N) :: SC : O(1)
 - Contains Duplicate - https://leetcode.com/problems/contains-duplicate/
+    HashTable : TC : O(N) :: SC : O(N)
+    Sorting : TC : O(N) :: SC (1)
 - Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
+    Brute Force : TC : O(N^2) :: SC : O(N)
+    Prefix & Suffix : TC : O(N) :: SC : O(N)
+    Reusing Array : TC : O(N) :: SC : O(1)
 - Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
 - Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
 - Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
@@ -43,8 +50,11 @@ Graph
 
 - Clone Graph - https://leetcode.com/problems/clone-graph/
 - Course Schedule - https://leetcode.com/problems/course-schedule/
+    Backtracking : TC : O(|E| + |V ^ 2|) :: SC : O(|E| + |V|) 
+    Topological Sorting : TC : O(|E| + |V|) :: SC : O(|E| + |V|) 
 - Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
 - Number of Islands - https://leetcode.com/problems/number-of-islands/
+    DFS : TC : O(M * N) :: SP : O(M * N)
 - Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
 - Alien Dictionary (Leetcode Premium) - https://leetcode.com/problems/alien-dictionary/
 - Graph Valid Tree (Leetcode Premium) - https://leetcode.com/problems/graph-valid-tree/
@@ -65,9 +75,17 @@ Interval
 Linked List
 
 - Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list/
+    Iterative : TC : O(N) :: SC : O(1)
+    Recursive : TC : O(N) :: SC : O(N)
 - Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/
+    Iterative : TC : O(N) :: SC : O(1)
+    Recursive : TC : O(N) :: SC : O(N)
+    HashTable : TC : O(N) :: SC : O(N)
 - Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/
+    Iterative : TC : O(min(m, n)) :: SC : O(1)
+    Priority Queue : TC : O(M Log M + N Log N) :: SC : O(M + N)
 - Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/
+    Priority Queue : TC : O(N log k) :: SC : O(N)
 - Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 - Reorder List - https://leetcode.com/problems/reorder-list/
 
@@ -85,6 +103,8 @@ Matrix
 String
 
 - Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/
+    Iterative(Brute Force) : TC : O(N ^ 3) :: SC : O(K) {K : Size of the HashSet}
+    HashSet : TC : O(N) :: SC : O(K) {K : Size of the HashSet}
 - Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/
 - Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/
 - Valid Anagram - https://leetcode.com/problems/valid-anagram/
