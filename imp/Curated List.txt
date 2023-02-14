@@ -87,6 +87,7 @@ Linked List
 - Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/
     Priority Queue : TC : O(N log k) :: SC : O(N)
 - Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+    Two Pass algorithm : TC : O(N) :: SC : O(1) 
 - Reorder List - https://leetcode.com/problems/reorder-list/
 
 ---
@@ -108,9 +109,13 @@ String
 - Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/
 - Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/
 - Valid Anagram - https://leetcode.com/problems/valid-anagram/
+    Sorting(Brute Force) : TC : O(N Log N) :: SC : O(N)
+    Frequency Table : TC : O(N) :: SC : O(1)
 - Group Anagrams - https://leetcode.com/problems/group-anagrams/
 - Valid Parentheses - https://leetcode.com/problems/valid-parentheses/
 - Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
+    Compare With Reverse : TC : O(N) :: SC : O(N)
+    Two Pointer : TC : O(N) :: SC : O(1)
 - Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
 - Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/
 - Encode and Decode Strings (Leetcode Premium) - https://leetcode.com/problems/encode-and-decode-strings/
@@ -120,6 +125,8 @@ String
 Tree
 
 - Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    Iteration : TC : O(N) :: SC : O(N) or O(Log N) for balanced (hight of the tree)
+    Recursion : TC : O(N) :: SC : O(N) or O(Log N) for balanced (hight of the tree)
 - Same Tree - https://leetcode.com/problems/same-tree/
 - Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree/
 - Binary Tree Maximum Path Sum - https://leetcode.com/problems/binary-tree-maximum-path-sum/
